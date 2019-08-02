@@ -1,2 +1,13 @@
 numpy
 pandas
+matplotlib
+seaborn
+sklearn
+lightgbm
+xgboost
+catboost
+tensorflow
+keras
+pytorch
+pandas-profiling
+tqdm
