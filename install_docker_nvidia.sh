@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # 1. Install docker
 
 sudo apt-get update

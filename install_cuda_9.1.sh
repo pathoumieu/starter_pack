@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # 1. install gcc6
 
 # sudo apt install build-essential gcc-6 g++-6
