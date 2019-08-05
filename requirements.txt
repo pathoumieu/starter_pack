@@ -8,6 +8,6 @@ xgboost
 catboost
 tensorflow
 keras
-pytorch
+torch
 pandas-profiling
 tqdm
