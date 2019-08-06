@@ -10,8 +10,9 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update
 sudo apt-get install docker-ce
 docker -v
-sudo usermod -aG docker Username
-su - Username
+sudo groupadd docker
+sudo usermod -aG docker $USER
+su - $USER
 
 
 # 2.0 Install nvidia drivers
