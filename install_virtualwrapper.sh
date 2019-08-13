@@ -8,4 +8,4 @@ echo "export WORKON_HOME=$HOME/.virtualenvs">>~/.bashrc
 echo "export PROJECT_HOME=$HOME/Devel">>~/.bashrc
 echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3">>~/.bashrc
 echo "export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'">>~/.bashrc
-source /usr/local/bin/virtualenvwrapper.sh
+echo "source /usr/local/bin/virtualenvwrapper.sh">>~/.bashrc
