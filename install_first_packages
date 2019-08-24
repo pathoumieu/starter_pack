@@ -1,0 +1,6 @@
+#! /bin/bash
+
+sudo apt-get install htop
+sudo apt-get install vim
+sudo apt-get install terminator
+sudo apt install openssh-server
