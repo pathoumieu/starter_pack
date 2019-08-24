@@ -4,3 +4,8 @@ sudo apt-get install htop
 sudo apt-get install vim
 sudo apt-get install terminator
 sudo apt install openssh-server
+sudo apt-get install net-tools
+
+cp .bash_aliases ~/
+source ~/.bash_aliases
+cp .gitconfig ~/
