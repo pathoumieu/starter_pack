@@ -38,6 +38,7 @@ sudo sh cuda_9.1.85_387.26_linux --silent --override --toolkit
 sudo sh cuda_9.1.85.1_linux --silent --accept-eula
 sudo sh cuda_9.1.85.2_linux --silent --accept-eula
 sudo sh cuda_9.1.85.3_linux --silent --accept-eula
+set -e
 
 # set system wide paths
 echo 'PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin"' | sudo tee /etc/environment
@@ -46,7 +47,7 @@ sudo ldconfig
 
 rm /tmp/cuda_9.1.85*_linux
 popd
-
+set -e
 
 # 4. reboot
 

@@ -1,5 +1,8 @@
 #! /bin/bash
 
+## Example
+## ./create_virtualenv.sh -d ./ -n sandbox -r requirements.txt
+
 has_requirements='false'
 
 while getopts "d:r:n:" OPTION
@@ -28,9 +31,15 @@ if $has_requirements; then
 else
     mkvirtualenv -a $dir -p python3 $name
 fi
+set -e
+
 workon $name
 pip install jupyter --quiet
+set -e
 pip install ipykernel --quiet
+set -e
 python -m ipykernel install --user --name $name
+set -e
 deactivate
+set -e
 jupyter notebook
