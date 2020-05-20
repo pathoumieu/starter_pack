@@ -1,0 +1,10 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "python.linting.flake8Args": [
+        "--ignore-missing-imports",
+        "--follow-imports=silent",
+        "--show-column-numbers",
+        "--max-line-length=100"
+    ],
+    "autoDocstring.docstringFormat": "numpy"
+}

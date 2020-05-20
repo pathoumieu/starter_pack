@@ -9,7 +9,6 @@ lightgbm
 xgboost
 catboost
 tensorflow
-tensorflow-gpu
 keras
 torch
 pandas-profiling

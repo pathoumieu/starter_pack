@@ -42,4 +42,3 @@ python -m ipykernel install --user --name $name
 set -e
 deactivate
 set -e
-jupyter notebook
